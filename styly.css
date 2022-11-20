@@ -1,0 +1,159 @@
+/* CSS Document */
+
+body {
+width: 1050px;
+margin-left: auto;
+margin-right: auto;
+font-family: verdana, Geneva, Tahoma, sans-serif;
+font-size: 16px;
+background-image: url(5.png);
+background-repeat: repeat;
+background-attachment: scroll;
+}
+
+.amerika {
+background-image: url(_YELLOW.png);
+}
+
+.asie {
+background-image: url(_RED.png);
+}
+
+.afrika {
+background-image: url(_GREEN.png);
+}
+
+.oceanie {
+background-image: url(BLUE.png);
+}
+
+.zacatek {
+font-size: 80px;
+margin-bottom: 1px;
+margin-top: 10px;
+text-align: center;
+color: rgb(0,0,0);
+
+}
+.podnadpis {
+font-size: 20px;
+margin-bottom: 5px;
+margin-top: 1px;
+margin-left: 250px;
+color: rgb(0,0,0);
+}
+
+nav a{    
+width: 175px;
+height: 75px;
+text-decoration: none;
+float: left;
+line-height: 70px;
+text-align: center;
+border: 3px solid rgb(0,0,0);
+color: black;
+background: rgb(216,216,216);
+font-size: x-large;
+}
+
+a:hover {
+background: rgb(0,0,0);
+color: rgb(255,255,255);
+}
+
+.container{
+display: flex;
+flex-flow: row wrap;
+justify-content: space-between; 
+}
+
+.item {
+flex-grow: 0;
+}
+
+p {
+text-indent: 20px;
+margin-left: 20px;
+}
+
+.jednicka {
+width: 685px;
+float: left;
+border: 3px solid rgb(0,0,0);
+color: rgb(0,0,0);
+height: 700px;
+font-size: 15px;
+background: rgb(216,216,216);
+margin-top: 10px;
+}
+
+.dvojka {
+width: 340px;
+color: rgb(0,0,0);
+float: right;
+border: 3px solid rgb(0,0,0);
+height: 700px;
+font-size: 13px;
+background: rgb(216,216,216);
+margin-top: 10px;
+}
+
+.trojka {
+margin-top: 10px;
+margin-bottom: 50px;
+width: 1044px;
+float: left;
+border: 3px solid rgb(0,0,0);
+color: rgb(0,0,0);
+height: 800px;
+font-size: 15px;
+background: rgb(216,216,216);
+}
+
+h1 {
+margin-left: 20px;
+}
+
+h2 {
+margin-left: 20px;
+}
+
+h3 {
+margin-left: 20px;
+}
+
+h4 {
+margin-left: 20px;
+}
+
+h5 {
+margin-left: 20px;
+}
+
+h6 {
+margin-left: 20px;
+}
+
+dl {
+margin-left: 5px;
+margin-right: 5px;
+}
+
+.tabulka {
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+border: 1px solid black;
+text-align: center;
+}
+
+.tdd {
+border: 1px solid black;
+padding: 3px;
+}
+
+.obrazky {
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
